@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PdfExtract:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PdfExtract_jar</output-path>
+    <root id="archive" name="PdfExtract.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="PdfExtract" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.0-RC2/pdfbox-2.0.0-RC2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/2.0.0-RC2/fontbox-2.0.0-RC2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.5/gson-2.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
