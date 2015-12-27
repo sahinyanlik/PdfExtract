@@ -1,0 +1,5 @@
+To extract highlighted text from pdf just use
+
+java -jar PdfExtract filename.pdf
+It will create filename.pdf.txt and will append all highlighted text with pages.
+
